@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include "vector.h"
+#include "point.h"
 #include "additionVector.h"
 
 /**
@@ -33,6 +34,9 @@ void additionVectorielle(tVector *vector1,tVector *vector2, tVector *vectorRes){
     vectorResAbscisse = vector1Abscisse + vector2Abscisse;
     vectorResOrdonnee = vector1Ordonnee + vector2Ordonnee;
 
-
+    vectorRes.vCoord_a.nX = vector1.vCoord_a.nX;
+    vectorRes.vCoord_a.nY = vector1.vCoord_a.nY;
+    vectorRes.vCoord_b.nX = vectorRes.vCoord_b.nX + vectorResOrdonnee;
+    vectorRes.vCoord_b.nY = vectorRes.vCoord_b.nY + vectorResOrdonnee;
 
 }

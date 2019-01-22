@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1548149655 source:d:\free pascal fpc\bin\i386-win32\programs\f21\git\tp_c_vecteurs_al_2018-01-22\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"point.h"
+
+1548147223 d:\free pascal fpc\bin\i386-win32\programs\f21\git\tp_c_vecteurs_al_2018-01-22\vector.h
+	"point.h"
+
+1548146992 d:\free pascal fpc\bin\i386-win32\programs\f21\git\tp_c_vecteurs_al_2018-01-22\point.h
+

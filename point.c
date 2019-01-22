@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "point.h"
 
 /**
     i : int             :nNom
@@ -12,7 +13,7 @@
     s : *STRING*
 */
 
-void initPoint(tPoint *coord,int n1,int n2){
+void initCoord(tCoord *coord,int n1,int n2){
 
     (*coord).nX = n1;
     (*coord).nY = n2;
